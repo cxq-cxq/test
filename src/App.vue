@@ -6,8 +6,13 @@
 </template>
 
 <script>
+import { component } from 'vue/types/umd'
+import HelloWorld from './components/HelloWorld.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    HelloWorld
+  }
 }
 </script>
 
